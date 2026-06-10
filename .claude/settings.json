@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"d:/中软杯/.claude\")",
+      "Read(//mnt/c/Users/xcx63/**)",
+      "Read(//c/Users/xcx63/Desktop/**)"
+    ],
+    "additionalDirectories": [
+      "d:\\中软杯"
+    ]
+  }
+}

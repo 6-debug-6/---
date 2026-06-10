@@ -4,15 +4,15 @@
 
 ## 技术栈
 
-| 层 | 技术 | 备注 |
-|---|------|------|
-| 前端 | Vue 3 + Vite | PC Web 端，响应式适配平板 |
-| 后端 | FastAPI (Python 3.10+) | REST API |
-| LLM 编排 | LangChain | 模型调用、检索链路编排 |
-| 大模型 | DeepSeek / 千问 API | 支持本地部署或云端接入 |
-| 向量数据库 | ChromaDB | 需验证 LoongArch 兼容性 |
-| 关系数据库 | PostgreSQL 或 SQLite | SQLite 用于轻量/开发 |
-| 文件存储 | 本地文件系统 或 MinIO | |
+| 层         | 技术                   | 备注                      |
+| ---------- | ---------------------- | ------------------------- |
+| 前端       | Vue 3 + Vite           | PC Web 端，响应式适配平板 |
+| 后端       | FastAPI (Python 3.10+) | REST API                  |
+| LLM 编排   | LangChain              | 模型调用、检索链路编排    |
+| 大模型     | DeepSeek / 千问 API    | 支持本地部署或云端接入    |
+| 向量数据库 | ChromaDB               | 需验证 LoongArch 兼容性   |
+| 关系数据库 | PostgreSQL 或 SQLite   | SQLite 用于轻量/开发      |
+| 文件存储   | 本地文件系统 或 MinIO  |                           |
 
 ## 运行环境
 
@@ -53,6 +53,7 @@
 - 所有 API 端点使用 `/api/v1/` 前缀
 - Git 提交信息使用中文，格式: `类型: 简要描述`
 - 后端环境通过 `.env` 文件配置，不硬编码密钥
+- 所有的代码内容都必须有详细的注释！
 
 ## 关键约束
 

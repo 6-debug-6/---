@@ -3,7 +3,27 @@
     "allow": [
       "Bash(mkdir -p \"d:/中软杯/.claude\")",
       "Read(//mnt/c/Users/xcx63/**)",
-      "Read(//c/Users/xcx63/Desktop/**)"
+      "Read(//c/Users/xcx63/Desktop/**)",
+      "Bash(pip install *)",
+      "Bash(timeout 8 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000)",
+      "Bash(npm create *)",
+      "Bash(npm --version)",
+      "Bash(python -m app.core.seed)",
+      "Bash(python -m uvicorn app.main:app --host 0.0.0.0 --port 8000)",
+      "Bash(curl -s http://localhost:8000/api/v1/health)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"username\":\"admin\",\"password\":\"admin123\"}')",
+      "Bash(python -m uvicorn app.main:app --host 0.0.0.0 --port 8001)",
+      "Bash(curl -s -X POST http://localhost:8001/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"username\":\"admin\",\"password\":\"admin123\"}')",
+      "Bash(python -m uvicorn app.main:app --host 0.0.0.0 --port 8002)",
+      "Bash(curl -s -X POST http://localhost:8002/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"username\":\"admin\",\"password\":\"admin123\"}')",
+      "Bash(curl -s -X POST http://localhost:8002/api/v1/auth/login -H \"Content-Type: application/json\" -d \"{\\\\\"username\\\\\":\\\\\"admin\\\\\",\\\\\"password\\\\\":\\\\\"admin123\\\\\"}\")",
+      "Bash(python -m uvicorn app.main:app --host 0.0.0.0 --port 8003)",
+      "Bash(curl -s -X POST http://localhost:8003/api/v1/auth/login -H \"Content-Type: application/json\" -d \"{\\\\\"username\\\\\":\\\\\"admin\\\\\",\\\\\"password\\\\\":\\\\\"admin123\\\\\"}\")",
+      "Bash(python -c \"from PIL import Image; print\\('PIL OK'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -m uvicorn app.main:app --host 0.0.0.0 --port 8004)",
+      "Bash(curl -s -X POST http://localhost:8004/api/v1/auth/login -H \"Content-Type: application/json\" -d \"{\\\\\"username\\\\\":\\\\\"admin\\\\\",\\\\\"password\\\\\":\\\\\"admin123\\\\\"}\")"
     ],
     "additionalDirectories": [
       "d:\\中软杯"
